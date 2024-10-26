@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0b0423;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left, #right{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px solid white;
+}
+
+.list{
+    background: #e91e63;
+    height: 60px;
+    width: 260px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: grab;
+    margin: 15px;
+}
+
+.list img{
+    width: 20px;
+    height: 20px;
+}
