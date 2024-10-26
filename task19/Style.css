@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.choice{
+    width: 150px;
+    line-height: 30px;
+}
+
+.gameDiv{
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+#computerText{
+    color: red;
+}
+
+#playerText{
+    color: blue;
+}
+
+#resultText{
+    color: green;
+}
